@@ -1,0 +1,139 @@
+/* Global Codes */
+
+.display-inline-block{
+    display: inline-block;
+}
+.display-block{
+    display: block;
+}
+.vertical-align-top{
+    vertical-align: top;
+}
+.vertical-align-mid{
+    vertical-align: middle;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.letters-capital{
+    text-transform: uppercase;
+}
+.letters-lowercase{
+    text-transform: lowercase;
+}
+.clear::after{
+    content: " ";
+    clear: both;
+    display: block;
+}
+/* End Global Codes */
+
+
+/* Body */
+body{
+    font-family: 'RobotoRegular';
+}
+
+/* End Body */
+
+
+/* Header */
+header{
+    padding-top: 20px;
+}
+.logo{
+    padding-right: 85px;
+    height: 60px;
+}
+.nav{
+
+}
+.nav-ul li{
+    color: #3D58A6;
+    font-size: 24px;
+    padding: 0 15px;
+}
+
+
+
+.social-icon{
+    height: 30px;
+    padding: 0 15px;
+    border-right: solid 1px #3D58A6;
+}
+
+
+/* End Header */
+
+/* Page path */
+
+.path-background{
+    margin: 20px auto;
+    height: 90px;
+    background-color: #BDCCD4;
+}
+.path-text{
+    color: white;
+    font-size: 22px;
+    height: 22px;
+    line-height: 90px;
+}
+.path-text:first-child{
+    color: #363E97;
+}
+
+
+/* End Page path */
+
+/* Article */
+.article-background{
+    background-color: white;
+}
+.article-wrapper{
+    color: #363E97;
+}
+.article-date{
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px solid #BDCCD4;
+}
+.article-day{
+    font-size: 36px;
+}
+.article-month{
+    font-size: 12px;
+}
+.article-picture{
+    width: 370px;
+    margin: 0 30px 30px 0;
+}
+.article-title{
+    font-size: 22px;
+    margin: 30px auto;
+}
+
+
+.article-content{
+    color: #58595B;
+    font-size: 20px;
+}
+/* End Article */
+
+
+/* Path Previous */
+
+.path-previous > .path-text{
+    color: white;
+}
+
+/* End Path previous */
