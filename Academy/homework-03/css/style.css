@@ -137,3 +137,63 @@ header{
 }
 
 /* End Path previous */
+
+
+
+/* return to my github */
+
+
+.return-wrapper .return-a{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    z-index: 100;
+}
+
+.return-wrapper .back-button {
+    height: 50px;
+    width: 50px;
+    z-index: 100;
+
+}
+
+.return-wrapper .return-text{
+    display: none;
+    position: absolute;
+    padding-left: 4px;
+    right: -55px;
+    bottom: 40px;
+    height: 38px;
+    width: 175px;
+    font-family: 'RobotoRegular';
+    font-size: 15px;
+    background-color: white;
+    border: 1px solid black;
+    border-right-width: 0px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    line-height: 38px;
+    z-index: 80;
+    transition-duration: .5s;
+}
+.return-wrapper:hover .back-button {
+    animation: .2s return-button-rotation forwards;
+    animation-timing-function: linear;
+}
+.return-wrapper:hover .return-text{
+    display: flex;
+    right: 55px;
+    transition-duration: .2s;
+
+}
+
+@keyframes return-button-rotation{
+    0% {
+        transform: rotate(0)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+/* end return to my github */
