@@ -92,8 +92,9 @@
 .homework{
     width: 33%;
     text-align: center;
-    height: 400px;
+    height: 300px;
     vertical-align: top;
+    margin-bottom: 30px;
 }
 .homework-content{
     text-align: left;
@@ -109,7 +110,7 @@
     color: white;
 }
 .homework-description{
-    margin: 200px 20px 20px 20px;
+    margin: 100px 20px 20px 20px;
     font-size: 20px;
 }
 
