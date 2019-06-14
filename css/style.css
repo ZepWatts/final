@@ -17,6 +17,9 @@
     margin: 0 120px;
     background-color: transparent;
 }
+.d-flex{
+    display: flex;
+}
 /* End Global Codes */
 
 
@@ -60,7 +63,7 @@
 /* Homeworks */
 .homeworks-background{
     background: #e7e6e6;
-    height: 460px;
+    height: 100%;
 }
 .background-html{
     background-color: #E85027;
@@ -82,19 +85,24 @@
 }
 
 .homework-wrapper{
-    display: inline-block;
+    /* display: inline-block; */
     background-color: transparent;
     margin-top: 30px;
+    padding-top: 30px;
     height: 400px;
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .homework{
-    width: 33%;
+    width: 400px;
     text-align: center;
     height: 300px;
     vertical-align: top;
     margin-bottom: 4px;
+    margin-right: 4px;
 }
 .homework-content{
     text-align: left;
