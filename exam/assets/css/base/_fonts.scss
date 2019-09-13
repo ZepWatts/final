@@ -1,0 +1,33 @@
+
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url($baseUrlFont + 'Montserrat-Black.eot');
+	src: local('☺'), url($baseUrlFont + 'Montserrat-Black.woff') format('woff'), url($baseUrlFont + 'Montserrat-Black.ttf') format('truetype'), url($baseUrlFont + 'Montserrat-Black.svg') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url($baseUrlFont + 'Montserrat-Bold.eot');
+	src: local('☺'), url($baseUrlFont + 'Montserrat-Bold.woff') format('woff'), url($baseUrlFont + 'Montserrat-Bold.ttf') format('truetype'), url($baseUrlFont + 'Montserrat-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url($baseUrlFont + 'Montserrat-Regular.eot');
+	src: local('☺'), url($baseUrlFont + 'Montserrat-Regular.woff') format('woff'), url($baseUrlFont + 'Montserrat-Regular.ttf') format('truetype'), url($baseUrlFont + 'Montserrat-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url($baseUrlFont + 'Montserrat-Light.eot');
+	src: local('☺'), url($baseUrlFont + 'Montserrat-Light.woff') format('woff'), url($baseUrlFont + 'Montserrat-Light.ttf') format('truetype'), url($baseUrlFont + 'Montserrat-Light.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
